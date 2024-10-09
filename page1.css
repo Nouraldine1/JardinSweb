@@ -1,0 +1,722 @@
+.banner {
+    height: 715px;
+    background-image: url('images/bandeau.webp');
+    background-size: cover; 
+    background-position: center; 
+    width: 100%;
+    color: white; 
+}
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /*  couleur noire avec une opacité */
+
+}
+
+
+html, body {
+    height: 100%; /* Pour que l'élément <html> et <body> occupent 100% de l'écran */
+    margin: 0; /* Supprime les marges par défaut */
+
+}
+
+header {
+    height: 100px;
+    display: flex;
+    gap: 70px;
+    text-align: right;
+    position: relative; 
+    z-index: 1; 
+   
+}
+
+.logo {
+    width: 25%;
+    height: 100px;
+    padding: 50px 0px 0px 0px;
+    z-index: 2; 
+    position: relative;
+
+}
+
+
+
+.menu {
+    width: 70%;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+   
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 50px 0px 0px 0px;
+    
+    
+}
+
+.menu  h1{
+    color: white;
+    font-size: 10px;
+    
+    
+}
+
+.menu ul li {
+    margin-right: 2.5vh; 
+    float: left;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-family:inherit ;
+    line-height: normal;color: white; 
+    color: white; 
+}
+
+.menu ul li button{
+  border: none;
+  height: 40px;
+  width: 11vh;
+  background-color: #ffdb60;
+  color: #1b1c20;
+  font-family:sans-serif;
+  font-size:16px;
+  box-shadow: 0 0 10px rgba(255, 219, 96, 0.8);
+ 
+    
+}
+
+.menu ul li button a:hover{
+  background-color: yellow;
+    
+}
+header .menu ul li a:hover {
+  color: #ffdb60; 
+  box-shadow: 0 0 10px rgba(255, 219, 96, 0.8); 
+}
+
+.cover{
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.coverpb{
+  height: 348px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2; 
+  position: relative;
+}
+
+
+.coverpb h1{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    color: #ffdb60;
+    letter-spacing: 4px;
+    text-align: center;
+
+}
+
+
+.coverpb h2{
+    font-family: sans-serif;
+    font-size: 3.5rem;
+    color:white;
+    margin-top: -1rem;
+    text-align: center;
+    line-height: 28px;
+ 
+
+}
+
+
+.coverpb p{
+   width: 70%;
+   text-align: center;
+   font-family: sans-serif;
+   font-size: 20px;
+   line-height: 30px;
+   letter-spacing: 0.1rem;
+   margin-top:-1rem ;
+
+}
+
+
+.coverpb button{
+  border: none;
+  height: 40px;
+  width: 20%;
+  background-color: #ffdb60;
+  color: #1b1c20;
+  font-family:sans-serif;
+  font-size:16px;
+ 
+
+}
+
+
+
+
+.section1{
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+
+}
+
+.texts1{
+  height: 100px;
+  width: 90%;
+  text-align: center;
+}
+
+.texts1 h1{
+FONT-FAMILY:Inter, Arial, Tahoma, Verdana, Helvetica, sans-serif;
+FONT-SIZE:34px;
+LETTER-SPACING:normal;
+
+}
+
+
+.partie1{
+  height: 400px;
+  width: 80%;
+  /* background-color: ; */
+  display: flex;
+  justify-content: center; 
+  gap: 80px; 
+}
+.box {
+  position: relative; 
+  width: 25%;
+  height: 400px;
+  background-size: cover;
+  background-color: #28292d;
+}
+
+.boiteimg {
+  width: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.boitext {
+  width: 100%;
+  height: 200px;
+  background-color: #28292d;
+  text-align: center;
+  box-shadow: yellow;
+}
+
+.boitext h1{
+    font-size: 19px;
+    text-align: center;
+    letter-spacing: normal;
+    color: white;
+    padding-top: 50px;
+    font-family: Inter, Arial, Tahoma, Verdana, Helvetica, sans-serif;
+}
+.boitext p{
+    color: white;
+    letter-spacing: normal;
+    font-family: Inter, Arial, Tahoma, Verdana, Helvetica, sans-serif;
+ 
+}
+
+
+.logobutton {
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: yellow;
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-color: #FFDB60;;
+  border: none; 
+  box-shadow: yellow;
+}
+
+
+.logobutton:hover{
+  background-color: yellow;
+}
+
+.partie2{
+  height: 1500px;
+  background-color: #1b1c20;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* position: relative; */
+  background-image: url('images/empreinte1.webp');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: auto 500px;
+  
+
+
+}
+
+.enfantpartie2d{
+  height: 700px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 0;
+  gap: 140px;
+  
+  
+  
+}
+
+.titre{
+  height: 100px;
+  width: 80%;
+  text-align: center;
+  
+  
+}
+
+.titre h1{
+ color: #fff;
+ font-size: 55px;
+ font-family: Inter, Arial, Tahoma, Verdana, Helvetica, sans-serif;  
+ letter-spacing: normal; 
+ margin-bottom: -500;
+}
+.avis{
+  height: 600px;
+  width: 100%;
+  display: flex;
+  gap: 0px;
+  justify-content: space-around;
+  
+  
+}
+
+.avistext{
+  height: 400px;
+  width: 40%;
+  justify-content: space-around;
+  align-items: center;
+  }
+
+
+.avistext p{
+ font-family:Inter, Arial, Tahoma, Verdana, Helvetica, sans-serif;;
+ font-size:20px ;
+ color: #d9d9d9;  
+}
+
+.avisimage{
+  height: 400px;
+  width: 38%;
+  background-image: url('images/jardin-paysager-brest.jpg');
+  background-size: cover;
+  background-position: center;
+  
+  
+}
+
+.boxpf{
+  height: 700px;
+  width: 100%;
+  /* position: absolute; */
+  /* left: ; */
+  /* margin-bottom: -2050px; */
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+
+  
+  
+  
+}
+
+.boxpf h1{
+    font-family:Inter,  'sans-serif' ;
+    font-size:28px ;
+    color: #ffdb60;  
+}
+
+.boxpf1{
+  height: 350px;
+  width: 70%;
+  display: flex;
+  gap: 20px; 
+}
+
+.boxpf11{
+  height: 350px;
+  width: 50%;
+  background-image: url('images/paysagiste-finistere-nord.webp');
+  background-position: center;
+  background-size: cover; 
+}
+
+.boxpf12{
+  height: 350px;
+  width: 50%;
+  text-align: left;
+}
+
+.boxpf12 p a:hover {
+  color: #ffdb60; 
+  box-shadow: 0 0 10px rgba(255, 219, 96, 0.8); 
+}
+.boxpf12 p{
+ font-family: Inter, Arial, Tahoma, Verdana, Helvetica, sans-serif;
+ font-size: 20px;
+ color: #d9d9d9;
+ line-height: 30px;
+}
+
+.boxpf2{
+  height: 200px;
+  width: 70%;
+  gap: 20px;
+  
+  
+}
+
+.boxpf2 h1{
+  font-family: Inter, Arial, Tahoma, Verdana, Helvetica, sans-serif; 
+  font-size:20px ;
+  /* text-align: ; */
+  color: #d9d9d9;
+  text-align: center;
+  }
+
+  .boxpf h2{
+  font-family: Inter, Arial, Tahoma, Verdana, Helvetica, sans-serif; 
+  font-size:43px ;
+  text-align: center;
+  color: #d9d9d9;
+  text-align: center;
+  }
+
+  
+.boxpf2 button {
+  border: none;
+  height: 50px;
+  width: 25%;
+  background-color: #ffdb60;
+  color: #1b1c20;
+  font-family:sans-serif;
+  font-size:18px;
+  
+  
+}
+  
+.back {
+    background: url('images/main-background.webp'), lightgray 0px 1096.537px / 100% 51.801% no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    color: white; 
+    /* width: 1920px; */
+    height: 70%;
+    flex-shrink: 0;
+}
+
+.slide{
+  padding-top: 80px;
+  padding-bottom: 80px;
+   display: flex;
+   overflow:scroll;
+   scroll-behavior: smooth;
+}
+.ensemble-fleche{
+   width:700px;
+   min-width: 700px;
+   display: flex;
+   margin: auto;
+   
+}
+
+::-webkit-scrollbar{
+   display: none;
+}
+.card{
+border: 1px solid whitesmoke;
+width:200px;
+height: 400px;
+min-width:200px;
+min-height:400px;
+transition-duration: 1000ms;
+box-shadow: 2px 2px 15px #fff;
+margin: 5px;
+z-index: 1;
+}
+.card1{
+  background: url(./images/01.jpeg);
+  background-size: cover;
+}
+.card2{
+  background: url(./images/02.jpeg);
+  background-size: cover;
+}
+.card3{
+  background: url(./images/03.jpeg);
+  background-size: cover;
+}
+.card4{
+  background: url(./images/04.jpeg);
+  background-size: cover;
+}
+.card5{
+  background: url(./images/05.jpeg);
+  background-size: cover;
+}
+.card6{
+  background: url(./images/06.jpeg);
+  background-size: cover;
+}
+.card7{
+  background: url(./images/07.jpeg);
+  background-size: cover;
+}
+.card8{
+  background: url(./images/08.jpeg);
+  background-size: cover;
+}
+.card9{
+  background: url(./images/09.jpeg);
+  background-size: cover;
+}
+
+
+footer{
+     height: 600px;
+     display: flex;
+     background-color: #5F5F5F;
+}
+.p1{
+
+    width: 15%;
+    background-image: url('images/empreinte2.png');
+    background-color: #1b1c20;
+    position: relative;
+    height: 100%;
+    background-size: 100% 100%; 
+    background-repeat: no-repeat; 
+    background-position: top;
+
+}
+
+.p2 {
+    width: 85%;
+    height: 600px;
+    background-color: #1b1c20;
+    display: flex;
+    flex-direction: column; 
+   
+}
+
+.p21 {
+    width: 100%;
+    height: 245px;
+    margin-bottom: 20px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 0px 0px 0px;
+}
+.p211 {
+    width: 25%;
+    height: 200px;
+     padding: 50px 0px 0px 0px;
+     
+    
+    
+}
+.p211 p{
+    font-size: 15px;
+    font-family: inherit    ;
+    color: #5f5f5f;
+    
+    
+}
+
+.navigation{
+    font-size: 30px;
+    font-family: inherit ;
+    color: white;
+
+    
+    
+}
+
+
+.p22 {
+    width: 100%;
+    height: 245px;
+    margin-bottom: 20px;  
+    padding: 70px 0px 0px 0px ;
+}
+
+
+.logofooter {
+    width: 90%;
+    height: 50px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+   
+}
+
+.textfooter {
+  width: 90%;
+  height: 100px;
+  background-color: #1c191a;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+    
+    
+
+
+.textfooter p{
+    font-size: 11px;
+    width: 80%;
+    font-family: inherit    ;
+    color: #5f5f5f;
+    padding: 20px 0px 0px 0px;
+    line-height:11.5px;
+    letter-spacing: normal;
+    FONT-FAMILY:  'sans-serif';
+    LINE-HEIGHT: 22.4px    ;
+    TEXT-ALIGN: center;
+    LETTER-SPACING: normal ;
+
+
+}
+.nav1{
+    
+    height: 150px;
+
+   
+}
+
+ 
+.nav2{
+    
+    height: 150px;
+    
+   
+}
+
+.nav{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    
+}
+.nav ul{
+
+    width: 100%;
+    height: 150px;
+    list-style-type: square;
+        
+}
+
+.nav ul li a {
+   text-decoration: none;
+   color: white;
+   font-family: inherit;
+   font-size: 11px;
+}
+.nav ul li a:hover {
+  color: #ffdb60; 
+  box-shadow: 0 0 10px rgba(255, 219, 96, 0.8); 
+}
+
+   .nav li  {
+  text-align: left;
+  }
+
+  .icones i {
+  margin-right: 10px; 
+  color: white;
+
+  
+
+  }
+
+  .icones button{
+   background-color: #1c191a;
+   height: 40px;
+   width: 40px;
+   border: none;
+   box-shadow: white;
+  
+
+  }
+
+  .icones button a i:hover{
+   box-shadow: 0 0 10px rgba(255, 219, 96, 0.8)
+   
+  
+
+  }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
